@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block conteudo %}
+<table class="table">
+    <th>Tabela de nome</th>
+    <tbody class="table-group-divider">
+
+        <tr>
+            <td>O Meu nome é:
+                {{nome|upper}}
+            </td> 
+        </tr>
+        <tr>   
+            <td>O meu primeiro sobrenome é:
+                {{sobrenome1|upper}}
+            </td>
+        </tr>
+        <tr>
+            <td>O meu segundo sobrenome é:
+                {{sobrenome2|upper}}
+            </td>
+        </tr>
+    </tbody>
+
+</table>
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
